@@ -1,0 +1,30 @@
+Image Dimension:
+
+a image dimension 200*200. consider it as the height and width is divided into 200 small boxes. total pixels: 40,000.
+resolution = w*h
+480p resolution will be 720*480
+720p resolution will be 1080*720
+
+Type of images:
+1. Grayscale image: have only 1 channel. black and white. data size is smaller
+2. RGB image: has 3 channels. Red, Greeen and Blue. data size is bigger
+
+Image Process:
+
+Grayscale:
+the image is convert into only one matrix.
+a 200*200 image is convert into a 200 by 200 matrix.
+each box is assigned a number between 0 to 255.
+
+properties:
+1. all pixels value lies between 0 to 255.
+2. 0 means black and 255 means white
+3. this value represents the white color intensity
+
+RGB image:
+
+1. each image is converted into 3 matirces.
+2. first matrix presents the Red Color Intensity.
+3. second matrix presents Green Color Intensity.
+4. second matrix presents Blue Color Intensity.
+5. all pixels value lies between 0 to 255.
