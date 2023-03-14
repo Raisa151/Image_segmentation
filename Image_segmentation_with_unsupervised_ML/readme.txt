@@ -19,3 +19,7 @@ AIC/BIC:
 The Akaike information criterion (AIC) and the Bayesian information criterion (BIC) provide measures of model performance that account for model complexity.
 AIC and BIC combine a term reflecting how well the model fits the data with a term that penalizes the model in proportion to its number of parameters.
 So it can be used to determine optimal parameter of a model.
+
+Histogram Segmentation:
+If the image histogram shows seperate distribution of pixels of the image we can use histogram segmentation.
+Histogram-based thresholding assumes that homogeneous objects in the image manifest themselves as clusters. The key to the histogram-based technique is the selection of a set of thresholds that can discriminate different pixels.
